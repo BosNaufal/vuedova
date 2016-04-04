@@ -2,17 +2,13 @@
   "name": "vuedova",
   "version": "0.0.1",
   "description": "Tool for developing Vuedova Framework mobile apps",
-  "main": "bin/index.js",
+  "main": "index.js",
   "author": "Naufal Rabbani <bosnaufalemail@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "vuedova": "./bin/index.js"
-  },
   "dependencies": {
     "commander": "^2.9.0",
     "es6-promise": "^3.1.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +21,16 @@
     "android",
     "ios",
     "vuejs"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosNaufal/vuedova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BosNaufal/vuedova/issues"
+  },
+  "homepage": "https://github.com/BosNaufal/vuedova#readme",
+  "bin": {
+    "vuedova": "./bin/vuedova"
+  }
 }
