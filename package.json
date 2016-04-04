@@ -1,8 +1,8 @@
 {
   "name": "vuedova",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tool for developing Vuedova Framework mobile apps",
-  "main": "index.js",
+  "main": "bin/index.js",
   "author": "Naufal Rabbani <bosnaufalemail@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/BosNaufal/vuedova#readme",
   "bin": {
-    "vuedova": "./bin/vuedova"
+    "vuedova": "bin/index.js"
   }
 }
